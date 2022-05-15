@@ -25,7 +25,7 @@ function Hero() {
           <section>
             <a
               href="https://discord.com/invite/NsW8aYFMJM"
-              className={`${styles.icon} flex green`}
+              className={`${styles.icon} flex green popup-hover-effect`}
               target="_blank"
               rel="noreferrer"
             >
@@ -33,7 +33,7 @@ function Hero() {
             </a>
             <a
               href="https://twitter.com/CryptoBeauties"
-              className={`${styles.icon} flex green`}
+              className={`${styles.icon} flex green popup-hover-effect`}
               target="_blank"
               rel="noreferrer"
             >
@@ -41,7 +41,7 @@ function Hero() {
             </a>
             <a
               href="https://www.instagram.com/cryptobeautiesnft/"
-              className={`${styles.icon} flex green`}
+              className={`${styles.icon} flex green popup-hover-effect`}
               target="_blank"
               rel="noreferrer"
             >
@@ -49,7 +49,7 @@ function Hero() {
             </a>
             <a
               href="https://opensea.io/collection/cryptobeauties-dao"
-              className={`${styles.icon} flex`}
+              className={`${styles.icon} flex popup-hover-effect`}
               target="_blank"
               rel="noreferrer"
             >
@@ -57,7 +57,7 @@ function Hero() {
             </a>
             <a
               href="https://etherscan.io/address/0xfa1dbfeb3933acab666ce8bc7a20d5560fbe2504"
-              className={`${styles.icon} flex`}
+              className={`${styles.icon} flex popup-hover-effect`}
               target="_blank"
               rel="noreferrer"
             >

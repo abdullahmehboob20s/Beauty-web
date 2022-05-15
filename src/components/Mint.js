@@ -15,7 +15,7 @@ function Mint() {
         </h2>
 
         <main>
-          <img src={lip} className={`${styles.lip}`} alt="" />
+          {/* <img src={lip} className={`${styles.lip}`} alt="" /> */}
 
           <div className={`${styles.imgWrapper} radius-12px`}>
             <img src={mintImg} className="radius-12px" alt="" />
@@ -30,7 +30,7 @@ function Mint() {
             </header>
 
             <p className="fs-22px black weight-7 mb-35px">
-              You can mint up to 40 Crypto Beauties now.
+              You can mint up to 40 NFTs!
             </p>
 
             <p className="font-open-sans fs-18px weight-4 mb-55px opacity-0_5">
@@ -40,7 +40,7 @@ function Mint() {
             <div className="mb-35px">
               <div className={`${styles.counter}`}>
                 <button
-                  className="green pointer"
+                  className="green pointer opacity-hover-effect"
                   onClick={() => setCounter((val) => (val < 2 ? val : val - 1))}
                 >
                   <ImMinus />
@@ -50,7 +50,7 @@ function Mint() {
                   {counter}
                 </p>
                 <button
-                  className="green pointer"
+                  className="green pointer opacity-hover-effect"
                   onClick={() => setCounter((val) => val + 1)}
                 >
                   <ImPlus />
@@ -62,7 +62,7 @@ function Mint() {
               <p className="black fs-22px weight-7 mb-15px">
                 TOTAL : 0.029 ETH
               </p>
-              <button className="pointer">
+              <button className="pointer opacity-hover-effect">
                 <span className={`${styles.heart}`}>
                   <img src={heart} alt="" />
                 </span>

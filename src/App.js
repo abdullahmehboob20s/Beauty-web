@@ -17,7 +17,7 @@ function App() {
       <div className="mb-100px">
         <Hero />
       </div>
-      <div className="mb-100px">
+      <div className="mb-50px">
         <Mission />
       </div>
       <div className="mb-80px">

@@ -20,3 +20,14 @@ body {
 .font-open-sans {
   font-family: u.$font-secondary;
 }
+
+.opacity-hover-effect:hover {
+  opacity: 0.6;
+}
+
+.popup-hover-effect {
+  transition: all 0.2s ease;
+}
+.popup-hover-effect:hover {
+  transform: translateY(-16%);
+}

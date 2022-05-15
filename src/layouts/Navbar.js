@@ -7,7 +7,7 @@ function Navbar() {
     <div className={`${styles.navbar} container-wrapper`}>
       <img src={logo} className={`${styles.logo}`} alt="" />
 
-      <button className="bg-red white radius-12px fs-22px weight-6 pointer">
+      <button className="bg-red white radius-12px fs-22px weight-6 pointer opacity-hover-effect">
         Connect Wallet
       </button>
     </div>

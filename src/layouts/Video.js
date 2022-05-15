@@ -4,7 +4,7 @@ import video from "assets/images/video.mp4";
 
 function Video() {
   return (
-    <div className={`${styles.wrapper} py-100px`}>
+    <div className={`${styles.wrapper} py-50px`}>
       <div className="container-wrapper">
         <header className="mb-50px">
           <p className="fs-18px weight-7 green text-center mb-10px">

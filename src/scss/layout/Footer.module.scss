@@ -1,11 +1,12 @@
 @use "../utils" as u;
 
 .wrapper {
-  padding: u.rem(24);
+  // padding: u.rem(24);
+  overflow: hidden;
 
   footer {
     background: #02929b;
-    border-radius: u.rem(12);
+    // border-radius: u.rem(12);
     padding: u.rem(75) 0;
 
     .lip {
@@ -13,6 +14,7 @@
       top: -9.5%;
       left: -3%;
       width: 30%;
+      height: 100%;
       transform: rotate(-45deg);
       transition: all 0.2s ease;
       opacity: 0.2;
