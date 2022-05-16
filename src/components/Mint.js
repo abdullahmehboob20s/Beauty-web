@@ -21,7 +21,7 @@ function Mint() {
             <img src={mintImg} className="radius-12px" alt="" />
           </div>
           <aside>
-            <header className="bg-green radius-12px mb-45px">
+            <header className="bg-green radius-12px mb-35px">
               <p className="fs-18px white weight-7 mb-10px">cryptobeauties</p>
               <h1 className="fs-54px white weight-7 mb-30px lh-1_1">
                 Mint Crypto Beauties
@@ -29,11 +29,11 @@ function Mint() {
               <h2 className="fs-22px white weight-7">2169 / 11,111</h2>
             </header>
 
-            <p className="fs-22px black weight-7 mb-35px">
+            <p className="fs-22px black weight-7 mb-25px">
               You can mint up to 40 NFTs!
             </p>
 
-            <p className="font-open-sans fs-18px weight-4 mb-55px opacity-0_5">
+            <p className="font-open-sans fs-18px weight-4 mb-35px opacity-0_5">
               Each Crypto Beauties NFT costs only 0.029 ETH + gas.
             </p>
 

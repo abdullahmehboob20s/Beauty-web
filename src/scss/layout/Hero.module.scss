@@ -24,7 +24,14 @@
 
     @include u.breakpoint(twoxLarge) {
       & > :not(:last-child) {
-        margin-right: u.rem(60);
+        margin-right: u.rem(40);
+      }
+
+      .icon {
+        $size: u.rem(40);
+
+        font-size: $size;
+        width: $size;
       }
     }
 

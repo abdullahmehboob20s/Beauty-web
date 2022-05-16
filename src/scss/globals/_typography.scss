@@ -280,7 +280,7 @@ a {
 
 @include u.breakpoint(twoxLarge) {
   .fs-64px {
-    font-size: u.rem(50);
+    font-size: u.rem(40);
   }
   .fs-54px {
     font-size: u.rem(36);

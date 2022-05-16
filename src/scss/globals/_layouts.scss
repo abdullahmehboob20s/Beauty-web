@@ -4,6 +4,10 @@
   max-width: 1600px;
   width: 78%;
   margin: 0 auto;
+
+  @include u.breakpoint(large) {
+    width: 90%;
+  }
 }
 .container-wrapper-2 {
   max-width: 1400px;
