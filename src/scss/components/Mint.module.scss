@@ -8,6 +8,7 @@
     display: flex;
     position: relative;
     z-index: 1;
+
     // align-items: flex-start;
 
     .lip {
@@ -21,11 +22,11 @@
 
     .imgWrapper {
       flex: 1;
-      height: 100%;
-
+      min-height: 100%;
       margin-right: u.rem(30);
       background-color: white;
       padding: u.rem(22);
+      // border: 2px solid red;
 
       img {
         width: 100%;
@@ -36,6 +37,7 @@
 
     aside {
       flex: 1;
+      // border: 2px solid red;
 
       header {
         box-shadow: 0px 100px 80px rgba(27, 74, 88, 0.04),
@@ -105,6 +107,7 @@
 
     @include u.breakpoint(twoxLarge) {
       padding: u.rem(36) u.rem(30);
+      // max-width: ;
 
       .imgWrapper {
         width: auto;
@@ -118,8 +121,8 @@
         }
 
         .counter {
-          padding: u.rem(14) u.rem(12);
-          max-width: u.rem(240);
+          padding: u.rem(12) u.rem(10);
+          max-width: u.rem(230);
 
           p {
             display: flex;

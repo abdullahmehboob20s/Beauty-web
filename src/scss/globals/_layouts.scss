@@ -1,18 +1,22 @@
 @use "../utils" as u;
 
 .container-wrapper {
-  max-width: 1600px;
-  width: 78%;
+  max-width: 1200px;
+  width: 90%;
   margin: 0 auto;
 
-  @include u.breakpoint(large) {
+  @include u.breakpoint(twoxLarge) {
+    width: 70%;
+  }
+  @include u.breakpoint(xLarge) {
     width: 90%;
   }
 }
 .container-wrapper-2 {
-  max-width: 1400px;
+  max-width: 1200px;
   width: 85%;
   margin: 0 auto;
+  // border: 2px solid red;
 
   @include u.breakpoint(twoxLarge) {
     width: 80%;

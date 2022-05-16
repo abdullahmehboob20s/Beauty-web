@@ -45,7 +45,7 @@ function Mint() {
                 >
                   <ImMinus />
                 </button>
-                <p className="green fs-40px weight-6">
+                <p className="green fs-30px weight-6">
                   {counter < 10 ? "0" : ""}
                   {counter}
                 </p>
