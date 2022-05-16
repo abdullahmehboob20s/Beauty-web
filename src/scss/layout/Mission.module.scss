@@ -33,14 +33,28 @@
     }
 
     @include u.breakpoint(twoxLarge) {
-      max-width: u.rem(900);
-      padding: u.rem(40) u.rem(45);
+      max-width: u.rem(700);
+      padding: u.rem(30) u.rem(30);
 
       header {
         img {
           width: 60%;
           padding: u.rem(18);
         }
+      }
+    }
+    @include u.breakpoint(xLarge) {
+      max-width: u.rem(600);
+      padding: u.rem(26) u.rem(22);
+
+      header {
+        img {
+          padding: u.rem(12);
+        }
+      }
+
+      section {
+        padding: u.rem(22) u.rem(30);
       }
     }
     @include u.breakpoint(large) {

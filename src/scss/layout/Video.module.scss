@@ -34,6 +34,12 @@
       padding: u.rem(18);
     }
   }
+  @include u.breakpoint(xLarge) {
+    main {
+      max-width: u.rem(360);
+      padding: u.rem(12);
+    }
+  }
   @include u.breakpoint(large) {
     main {
       max-width: u.rem(400);

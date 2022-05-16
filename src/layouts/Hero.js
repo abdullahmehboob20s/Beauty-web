@@ -16,7 +16,7 @@ function Hero() {
         <div className="mb-60px">
           <h1
             className={`text-center fs-64px black weight-7 ${
-              isBellow600px ? "mb-20px" : "mb-80px"
+              isBellow600px ? "mb-20px" : "mb-50px"
             } `}
           >
             Crypto Beauties DAO

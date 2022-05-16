@@ -23,13 +23,13 @@ function Mint() {
           <aside>
             <header className="bg-green radius-12px mb-35px">
               <p className="fs-18px white weight-7 mb-10px">cryptobeauties</p>
-              <h1 className="fs-54px white weight-7 mb-30px lh-1_1">
+              <h1 className="fs-54px white weight-7 mb-20px lh-1_1">
                 Mint Crypto Beauties
               </h1>
               <h2 className="fs-22px white weight-7">2169 / 11,111</h2>
             </header>
 
-            <p className="fs-22px black weight-7 mb-25px">
+            <p className="fs-22px black weight-7 mb-15px">
               You can mint up to 40 NFTs!
             </p>
 

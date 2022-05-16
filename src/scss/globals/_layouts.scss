@@ -9,6 +9,9 @@
     width: 70%;
   }
   @include u.breakpoint(xLarge) {
+    width: 80%;
+  }
+  @include u.breakpoint(large) {
     width: 90%;
   }
 }

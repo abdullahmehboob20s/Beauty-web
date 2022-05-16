@@ -30,11 +30,11 @@
     padding: u.rem(30) 0;
 
     .logo {
-      width: u.rem(300);
+      width: u.rem(260);
     }
 
     button {
-      padding: u.rem(12) u.rem(26);
+      padding: u.rem(10) u.rem(22);
     }
   }
   @include u.breakpoint(large) {

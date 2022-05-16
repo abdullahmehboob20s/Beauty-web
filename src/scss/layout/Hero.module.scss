@@ -37,13 +37,13 @@
 
     @include u.breakpoint(xLarge) {
       .icon {
-        $size: u.rem(40);
+        $size: u.rem(34);
         font-size: $size;
         width: $size;
       }
 
       & > :not(:last-child) {
-        margin-right: u.rem(40);
+        margin-right: u.rem(36);
       }
     }
     @include u.breakpoint(medium) {
