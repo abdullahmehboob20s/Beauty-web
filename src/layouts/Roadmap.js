@@ -10,7 +10,8 @@ function Roadmap() {
           <main>
             <p className="green fs-18px weight-7 mb-10px">cryptobeauties</p>
             <p className="fs-54px black weight-7 mb-30px lh-1_2">
-              Will You Join Our Mission?
+              {/* Will You Join Our Mission? */}
+              High-Level Roadmap
             </p>
 
             <p className="font-open-sans fs-20px black weight-4 lh-1_6 opacity-0_8 mb-25px">
