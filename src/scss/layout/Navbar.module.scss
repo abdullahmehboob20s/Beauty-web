@@ -63,6 +63,11 @@
   @include u.breakpoint(xsmall) {
     flex-direction: column;
 
+    .logo {
+      width: 80%;
+      max-width: u.rem(250);
+    }
+
     & > :not(:last-child) {
       margin-bottom: u.rem(16);
     }
